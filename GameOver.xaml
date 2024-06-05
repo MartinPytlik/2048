@@ -1,0 +1,17 @@
+﻿<Window x:Class="Projekt_2048.GameOver"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt_2048"
+        mc:Ignorable="d"
+        Title="GameOver" Height="450" Width="428">
+    <Grid Background="#faf8ef">
+        <Label Content="GAME OVER" HorizontalAlignment="Center" Margin="0,43,0,0" VerticalAlignment="Top" Height="77" Width="290" FontSize="50px" Foreground="#776e65"/>
+        <Label x:Name="WL" Content="" HorizontalAlignment="Center" Margin="0,106,0,0" VerticalAlignment="Top" Height="77" Width="290" FontSize="50px" Foreground="#776e65" xmlns:local="clr-namespace:Projekt_2048"/>
+        <Button Content="Hrát znovu" HorizontalAlignment="Left" Margin="58,212,0,0" VerticalAlignment="Top" Height="49" Width="110" FontSize="20px" Click="PlayAgainBtn" Background="#8f7a66" Foreground="#faf8ef"/>
+        <Button Content="Zavřít Okno" HorizontalAlignment="Left" Margin="244,212,0,0" VerticalAlignment="Top" Height="49" Width="118" FontSize="20px" Click="ZavritOknoBtn" Background="#8f7a66" Foreground="#faf8ef"/>
+        <Label x:Name="Score2" Content="Scóre: " HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Width="272" FontSize="20px" Foreground="#776e65" xmlns:local="clr-namespace:Projekt_2048" Margin="50,344,0,0"/>
+        <Label x:Name="MaxScore" Content="Největší číslo: " HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="290" FontSize="20px" Foreground="#776e65" xmlns:local="clr-namespace:Projekt_2048" Margin="50,293,0,0"/>
+    </Grid>
+</Window>

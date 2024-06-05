@@ -1,0 +1,15 @@
+﻿<Window x:Class="Projekt_2048.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt_2048"
+        mc:Ignorable="d"
+        Title="StartWindow" Height="450" Width="428">
+    <Grid Background="#faf8ef">
+        <Label Content="   Vítejte ve hře 2048" HorizontalAlignment="Left" Margin="-28,72,0,0" VerticalAlignment="Top" Height="145" Width="465" FontSize="47px" Foreground="#776e65"/>
+        <Button Content="Hrát hru" HorizontalAlignment="Left" Margin="40,222,0,0" VerticalAlignment="Top" Height="49" Width="103" FontSize="20px" Click="HratHru" Background="#8f7a66" Foreground="#faf8ef"/>
+        <Button Content="Zavřít Okno" HorizontalAlignment="Left" Margin="259,222,0,0" VerticalAlignment="Top" Height="49" Width="118" FontSize="20px" Click="ZavritOknoBtn" Background="#8f7a66" Foreground="#faf8ef"/>
+
+    </Grid>
+</Window>
